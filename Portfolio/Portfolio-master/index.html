@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Devlo<span>pe</span>r..</a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hello</span>
+          <span class="two">I'm</span>
+        </div>
+        <h1>IBAD NACHAN</h1>
+        <h3><span class="multiple-text"></span></h3>
+        <p>
+          A Computer Engineering student passionate about Programming and Design.
+        </p>
+
+        <div class="button">
+          <a href="#about" class="btn">About Me</a>
+        </div>
+      </div>
+      <img src="img/background.jpg" />
+    </section
+
+    <!---------about Section --------------->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/img.jpg" />
+      </div>
+
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <!-- <h4>Website Designer!</h4> -->
+        <p>
+          "As a proficient computer engineering student with a solid grasp of programming languages like C and C++, coupled with a comprehensive understanding of data structures, I bring a strong technical foundation to the table. Beyond that, my expertise extends to full-stack web development, where I have honed my skills in creating dynamic and user-friendly web applications. I am passionate about leveraging technology to drive innovation and am excited to contribute my multifaceted skills to projects that demand creative problem-solving and a commitment to excellence."
+        </p>
+
+        <div class="linknames">
+          <span class="tab-links active-links" onclick="opentab('skills')">
+            Skills
+          </span>
+
+          <span class="tab-links" onclick="opentab('education')"
+            >Education</span
+          >
+
+          <span class="tab-links" onclick="opentab('language')">Language</span>
+        </div>
+
+        <div class="skills active-tab tab-contents" id="skills">
+          <div class="boxx">
+            <h5>C</h5>
+            <div class="percent">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="boxx">
+            <h5>C++</h5>
+            <div class="percent">
+              <div style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="boxx">
+            <h5>Html</h5>
+            <div class="percent">
+              <div style="width: 98%"></div>
+            </div>
+          </div>
+          <div class="boxx">
+            <h5>Css</h5>
+            <div class="percent">
+              <div style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="boxx">
+            <h5>Javascript</h5>
+            <div class="percent">
+              <div style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="boxx">
+            <h5>Photoshop</h5>
+            <div class="percent">
+              <div style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contactInfo education tab-contents" id="education">
+          <li>
+            <h5>2020-2024</h5>
+            <h4>Computer Engineering</h4>
+            <h3>Mumbai University</h3>
+          </li>
+          <li>
+            <h5>2019-2020</h5>
+            <h4>HSC</h4>
+            <h3>Maharashtra Board</h3>
+          </li>
+          <li>
+            <h5>2017-2018</h5>
+            <h4>SSC</h4>
+            <h3>Maharashtra Board</h3>
+          </li>
+        </div>
+        <div class="contactInfo language tab-contents" id="language">
+          <li>
+            <span class="text">English</span>
+            <span class="percent">
+              <div style="width: 95%"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Hindi</span>
+            <span class="percent">
+              <div style="width: 85%"></div>
+            </span>
+          </li>
+          <li>
+            <span class="text">Marathi</span>
+            <span class="percent">
+              <div style="width: 70%"></div>
+            </span>
+          </li>
+        </div>
+      </div>
+    </section>
+
+    <!-----------Services Section-------------->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2><span>My</span>Services</h2>
+      </div>
+      <div class="services-content">
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Web development, also known as website development, refers to the
+            tasks associated with creating, building, and maintaining websites
+            and web applications that run online on a browser..
+          </p>
+          <a
+            href="https://brainstation.io/career-guides/what-is-web-development"
+            class="btn"
+            >Read More</a
+          >
+        </div>
+
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <h3>App Development</h3>
+          <p>
+            App development is the process in which developers create an
+            application to be used on smartphones, tablets and other mobile
+            devices ...
+          </p>
+          <a href="https://orases.com/what-is-app-development/" class="btn"
+            >Read More</a
+          >
+        </div>
+
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-edit-alt"></i>
+          </div>
+          <h3>Creative Design</h3>
+          <p>
+            Creative design involves using computer-generated imagery and
+            digital animation to visualise a product. It aims to produce unique
+            and memorable designs that stand out so that customers may easily
+            identify a brand or product.
+          </p>
+          <a
+            href="https://in.indeed.com/career-advice/career-development/what-is-creative-design"
+            class="btn"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-----------Portfolio Section--------------->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2><span>MY</span>Project</h2>
+      </div>
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="img/project1.jpg" />
+          
+        </div>
+
+        <div class="row">
+          <img src="img/project2.jpg" />
+          
+        </div>
+
+        <div class="row">
+          <img src="img/project3.jpg" />
+          
+        </div>
+
+        <div class="row">
+          <img src="img/project4.jpg" />
+          
+        </div>
+
+        <div class="row">
+          <img src="img/project5.jpg" />
+          
+        </div>
+
+        <div class="row">
+          <img src="img/project6.jpg" />
+          
+        </div>
+      </div>
+    </section>
+
+    <!------------------Contact section------------>
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        
+        <div class="list">
+          <li><a href="#">9309177724</a></li>
+          <li><a href="#">ibadnachan@gmail.com</a></li>
+          <li><a href="#">Thane,Maharashtra</a></li>
+        </div>
+
+        <div class="contact-icons">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="name" placeholder="Your Name " required />
+          <input type="email" placeholder="Your Email " required />
+          <input type="number" placeholder="your Mobile Number" required />
+          <textarea
+            name=""
+            id=""
+            cols="35"
+            rows="10"
+            placeholder="How Can I Help You "
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="submit" required />
+        </form>
+      </div>
+    </section>
+
+    <!---------End Section---------->
+    <section class="end">
+      <div class="last-text">
+        <p>Design By IBAD NACHAN</p>
+      </div>
+      <div class="top">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </section>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+
+      const typed = new Typed(".multiple-text", {
+        strings: ["Engineering Student", "Frontend Developer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
